@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    /* roboto */
+    /* @font-face {
+        font-family: robto thin;
+        src: url(/assets/webfonts/roboto/Roboto-Black.ttf);
+    } */
+    /* @font-face {
+        font-family: roboto light;
+        src: url('webfonts/custom/roboto/Roboto-Light.ttf');
+    }
+    @font-face {
+        font-family: roboto regular;
+        src: url('webfonts/custom/roboto/Roboto-Regular.ttf');
+    }
+    @font-face {
+        font-family: roboto medium;
+        src: url('webfonts/custom/roboto/Roboto-Medium.ttf');
+    }
+    @font-face {
+        font-family: roboto bold;
+        src: url('webfonts/custom/roboto/Roboto-Bold.ttf');
+    }
+    @font-face {
+        font-family: roboto black;
+        src: url('webfonts/custom/roboto/Roboto-Black.ttf');
+    } */
+
+    /* playfair display */
+    /* @font-face {
+        font-family: playfair display regular;
+        src: url('webfonts/custom/playfairDisplay/PlayfairDisplay-Regular.ttf');
+    }
+    @font-face {
+        font-family: playfair display medium;
+        src: url('webfonts/custom/playfairDisplay/PlayfairDisplay-Medium.ttf');
+    }
+    @font-face {
+        font-family: playfair display semi bold;
+        src: url('webfonts/custom/playfairDisplay/PlayfairDisplay-SemiBold.ttf');
+    }
+    @font-face {
+        font-family: playfair display bold;
+        src: url('webfonts/custom/playfairDisplay/PlayfairDisplay-Bold.ttf');
+    }
+    @font-face {
+        font-family: playfair display extra bold;
+        src: url('webfonts/custom/playfairDisplay/PlayfairDisplay-ExtraBold.ttf');
+    }
+    @font-face {
+        font-family: playfair display black;
+        src: url('webfonts/custom/playfairDisplay/PlayfairDisplay-Black.ttf');
+    } */
+
+
+    html,
+    body{
+        scroll-behavior: smooth;
+        @apply text-black font-rbtRegular text-base;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        @apply text-primary font-pfdBold leading-none;
+    }
+
+    a,
+    button{
+        @apply duration-300 focus:outline-none hover:opacity-80;
+    }
+
+    .bgFooter{
+        background: linear-gradient(180deg, #495B89 0%, #333F5F 100%);
+    }
+}
